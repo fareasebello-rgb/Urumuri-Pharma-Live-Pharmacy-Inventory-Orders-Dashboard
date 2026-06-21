@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Urumuri Pharma · Inventory & Orders</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="header">
+    <div class="header__brand">
+      <div class="header__mark">U</div>
+      <div class="header__titles">
+        <h1>Urumuri Pharma <span class="dim">Ltd</span></h1>
+        <p class="eyebrow">Live inventory &amp; order dashboard</p>
+      </div>
+    </div>
+
+    <div class="header__pulse" aria-hidden="true">
+      <svg viewBox="0 0 600 80" preserveAspectRatio="none">
+        <polyline class="pulse-track" points="0,40 60,40 80,40 95,10 110,70 125,40 600,40"></polyline>
+        <polyline class="pulse-line" points="0,40 60,40 80,40 95,10 110,70 125,40 600,40"></polyline>
+      </svg>
+    </div>
+
+    <div class="header__meta">
+      <span class="dot dot--live"></span>
+      <span id="connection-label">Connecting to API…</span>
+      <span class="header__updated" id="last-updated"></span>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpi-row" aria-label="Key performance indicators"></section>
+
+  <div class="message message--info" id="status-box">Loading live pharmacy data…</div>
+
+  <section class="grid">
+
+    <div class="panel panel--wide">
+      <div class="panel__head">
+        <div>
+          <h2>Inventory</h2>
+          <p class="panel__sub">Current stock levels, unit prices, and reorder alerts.</p>
+        </div>
+      </div>
+      <table class="data-table" id="inventory-table">
+        <thead>
+          <tr><th>Product</th><th>Category</th><th>Price</th><th>Stock</th><th>Reorder</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <div class="panel__head">
+        <div>
+          <h2>New order</h2>
+          <p class="panel__sub">Create a sales order and update inventory immediately.</p>
+        </div>
+      </div>
+      <form id="order-form">
+        <div class="form-row">
+          <label for="product">Product</label>
+          <select id="product" required></select>
+        </div>
+        <div class="form-row">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" min="1" value="1" required />
+        </div>
+        <div class="form-row">
+          <label for="client_name">Client name</label>
+          <input type="text" id="client_name" placeholder="Enter clinic or pharmacy" required />
+        </div>
+        <div class="form-row">
+          <label for="region">Region</label>
+          <select id="region" required></select>
+        </div>
+        <div class="form-row">
+          <label for="client_type">Client type</label>
+          <select id="client_type" required></select>
+        </div>
+        <button type="submit">Place order</button>
+        <div class="message message--hidden" id="order-status"></div>
+      </form>
+    </div>
+
+    <div class="panel panel--wide">
+      <div class="panel__head">
+        <div>
+          <h2>Recent orders</h2>
+          <p class="panel__sub">Latest sales recorded by the pharmacy.</p>
+        </div>
+      </div>
+      <table class="data-table data-table--feed" id="recent-orders-table">
+        <thead>
+          <tr><th>Date</th><th>Client</th><th>Product</th><th>Qty</th><th>Total</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>
+      This live dashboard uses the same RWF <strong>15,000,000</strong> monthly ceiling rule. Orders are captured into the backend and inventory is updated in real time.
+    </p>
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
