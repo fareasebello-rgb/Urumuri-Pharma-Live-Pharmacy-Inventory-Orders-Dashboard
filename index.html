@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Urumuri Pharma · Analytics Dashboard</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ============ HEADER : signature pulse-line ============ -->
+  <header class="header">
+    <div class="header__brand">
+      <div class="header__mark">U</div>
+      <div class="header__titles">
+        <h1>Urumuri Pharma <span class="dim">Ltd</span></h1>
+        <p class="eyebrow">Sales &amp; Distribution Analytics — Republic of Rwanda</p>
+      </div>
+    </div>
+
+    <div class="header__pulse" aria-hidden="true">
+      <svg viewBox="0 0 600 80" preserveAspectRatio="none">
+        <polyline class="pulse-track" points="0,40 60,40 80,40 95,10 110,70 125,40 600,40"></polyline>
+        <polyline class="pulse-line" points="0,40 60,40 80,40 95,10 110,70 125,40 600,40"></polyline>
+      </svg>
+    </div>
+
+    <div class="header__meta">
+      <span class="dot dot--live"></span>
+      <span id="connection-label">Connecting to API…</span>
+      <span class="header__updated" id="last-updated"></span>
+    </div>
+  </header>
+
+  <!-- ============ TIME RANGE TOGGLE ============ -->
+  <div class="toolbar">
+    <span class="toolbar__label">Showing</span>
+    <div class="segmented" id="range-toggle" role="tablist" aria-label="Time range">
+      <button class="segmented__btn is-active" data-months="12" role="tab" aria-selected="true">All time (12 months)</button>
+      <button class="segmented__btn" data-months="6" role="tab" aria-selected="false">Last 6 months</button>
+    </div>
+  </div>
+
+  <!-- ============ KPI ROW ============ -->
+  <section class="kpis" id="kpi-row" aria-label="Key performance indicators">
+    <!-- filled by app.js -->
+  </section>
+
+  <!-- ============ NEW ORDERS (moved up) ============ -->
+  <section class="panel panel--wide" aria-label="New orders">
+    <div class="panel__head">
+      <div>
+        <h2>New orders</h2>
+        <p class="panel__sub">Latest orders recorded across all branches, most recent first</p>
+      </div>
+      <span class="tag tag--live">Live feed</span>
+    </div>
+    <table class="data-table data-table--feed" id="new-orders-table">
+      <thead>
+        <tr><th>Date</th><th>Client</th><th>Product</th><th>Region</th><th>Total (RWF)</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- ============ INSIGHTS ============ -->
+  <section class="panel panel--wide" aria-label="Insights">
+    <div class="panel__head">
+      <div>
+        <h2>Insights</h2>
+        <p class="panel__sub">Auto-generated from the sales &amp; inventory data for the selected time range</p>
+      </div>
+    </div>
+    <ul class="insights-list" id="insights-list"></ul>
+  </section>
+
+  <!-- ============ MAIN GRID ============ -->
+  <section class="grid">
+
+    <div class="panel panel--wide">
+      <div class="panel__head">
+        <div>
+          <h2>Monthly revenue</h2>
+          <p class="panel__sub">
+            RWF, with the company's monthly ceiling shown as a reference line
+            <button class="info-btn" type="button"
+              title="Urumuri Pharma keeps monthly revenue under RWF 15,000,000 by policy — a planning and risk-management cap, not a system limit. The dashed line shows how close each month gets to it.">ⓘ</button>
+          </p>
+        </div>
+        <div class="legend-chip"><span class="swatch swatch--gold"></span>Revenue</div>
+      </div>
+      <div class="chart-wrap chart-wrap--tall">
+        <canvas id="chart-monthly"></canvas>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel__head">
+        <div>
+          <h2>Revenue by category</h2>
+          <p class="panel__sub">Share of total, selected period</p>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-category"></canvas>
+      </div>
+      <ul class="legend-list" id="category-legend"></ul>
+    </div>
+
+    <div class="panel">
+      <div class="panel__head">
+        <div>
+          <h2>Revenue by region</h2>
+          <p class="panel__sub">Across Rwanda's provinces and districts</p>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-region"></canvas>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel__head">
+        <div>
+          <h2>Revenue by client type</h2>
+          <p class="panel__sub">Hospitals, clinics, pharmacies &amp; distributors</p>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-client"></canvas>
+      </div>
+    </div>
+
+    <div class="panel panel--wide">
+      <div class="panel__head">
+        <div>
+          <h2>Top products</h2>
+          <p class="panel__sub">Ranked by revenue contribution, selected period</p>
+        </div>
+      </div>
+      <table class="data-table" id="top-products-table">
+        <thead>
+          <tr><th>Product</th><th>Units sold</th><th>Revenue (RWF)</th><th></th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <!-- ============ INVENTORY & REORDER (moved last) ============ -->
+  <section class="panel panel--wide" id="inventory-section" aria-label="Inventory and reorder">
+    <div class="panel__head">
+      <div>
+        <h2>Inventory &amp; reorder</h2>
+        <p class="panel__sub">Sorted by urgency — lowest days-of-stock first, not alphabetical. Velocity is calculated from the selected time range.</p>
+      </div>
+      <span class="tag tag--warn" id="reorder-count-tag">0 need reorder</span>
+    </div>
+
+    <div class="search-row">
+      <svg class="search-row__icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="inventory-search" placeholder="Search inventory by product or category…" autocomplete="off" />
+    </div>
+
+    <table class="data-table" id="inventory-table">
+      <thead>
+        <tr>
+          <th>Product</th><th>Category</th><th>Stock on hand</th>
+          <th>Reorder threshold</th><th>Days of stock left</th><th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <p class="empty-state" id="inventory-empty" hidden>No products match that search.</p>
+  </section>
+
+  <footer class="footer">
+    <p>
+      Synthetic demo data generated to respect a monthly revenue ceiling of
+      <strong>RWF 15,000,000</strong>. Swap <code>backend/app.py</code> for your
+      production API — the frontend only expects the JSON shapes documented
+      in <code>README.md</code>.
+    </p>
+  </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

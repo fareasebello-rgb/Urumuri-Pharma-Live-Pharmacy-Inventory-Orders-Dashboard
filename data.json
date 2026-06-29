@@ -1,0 +1,1127 @@
+{
+  "generated_for": "Urumuri Pharma Ltd",
+  "currency": "RWF",
+  "monthly_ceiling_rwf": 15000000,
+  "new_orders": [
+    {
+      "transaction_id": "TXN-03721",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Oral Rehydration Salts",
+      "category": "Maternal & Child Health",
+      "unit_price_rwf": 600,
+      "quantity": 87,
+      "line_total_rwf": 52200,
+      "region": "Northern Province - Musanze",
+      "client_name": "Kayonza District Hospital",
+      "client_type": "Health Center"
+    },
+    {
+      "transaction_id": "TXN-03722",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Oral Rehydration Salts",
+      "category": "Maternal & Child Health",
+      "unit_price_rwf": 600,
+      "quantity": 83,
+      "line_total_rwf": 49800,
+      "region": "Kigali - Kicukiro",
+      "client_name": "Kicukiro Retail Pharmacy",
+      "client_type": "Retail Pharmacy"
+    },
+    {
+      "transaction_id": "TXN-03723",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Insulin Glargine Pen",
+      "category": "Diabetes Care",
+      "unit_price_rwf": 9500,
+      "quantity": 3,
+      "line_total_rwf": 28500,
+      "region": "Northern Province - Musanze",
+      "client_name": "Musanze District Hospital",
+      "client_type": "Wholesale Distributor"
+    },
+    {
+      "transaction_id": "TXN-03724",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Surgical Gloves (box of 100)",
+      "category": "Medical Supplies",
+      "unit_price_rwf": 4500,
+      "quantity": 13,
+      "line_total_rwf": 58500,
+      "region": "Kigali - Gasabo",
+      "client_name": "Kigali Wholesale Medical Supplies",
+      "client_type": "Retail Pharmacy"
+    },
+    {
+      "transaction_id": "TXN-03725",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Metronidazole 400mg",
+      "category": "Antibiotics",
+      "unit_price_rwf": 900,
+      "quantity": 57,
+      "line_total_rwf": 51300,
+      "region": "Kigali - Nyarugenge",
+      "client_name": "Nyarugenge Health Center",
+      "client_type": "Health Center"
+    },
+    {
+      "transaction_id": "TXN-03726",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Insulin Glargine Pen",
+      "category": "Diabetes Care",
+      "unit_price_rwf": 9500,
+      "quantity": 8,
+      "line_total_rwf": 76000,
+      "region": "Kigali - Nyarugenge",
+      "client_name": "Remera Family Pharmacy",
+      "client_type": "Private Clinic"
+    },
+    {
+      "transaction_id": "TXN-03727",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Ibuprofen 400mg",
+      "category": "Analgesics & Pain Relief",
+      "unit_price_rwf": 700,
+      "quantity": 72,
+      "line_total_rwf": 50400,
+      "region": "Southern Province - Huye",
+      "client_name": "Huye Community Clinic",
+      "client_type": "Private Clinic"
+    },
+    {
+      "transaction_id": "TXN-03728",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Metronidazole 400mg",
+      "category": "Antibiotics",
+      "unit_price_rwf": 900,
+      "quantity": 59,
+      "line_total_rwf": 53100,
+      "region": "Northern Province - Musanze",
+      "client_name": "Kayonza District Hospital",
+      "client_type": "Health Center"
+    },
+    {
+      "transaction_id": "TXN-03729",
+      "date": "2025-12-31",
+      "month": "2025-12",
+      "product": "Quinine Sulphate 300mg",
+      "category": "Antimalarials",
+      "unit_price_rwf": 1500,
+      "quantity": 32,
+      "line_total_rwf": 48000,
+      "region": "Eastern Province - Rwamagana",
+      "client_name": "Rwamagana Health Center",
+      "client_type": "Health Center"
+    },
+    {
+      "transaction_id": "TXN-03712",
+      "date": "2025-12-30",
+      "month": "2025-12",
+      "product": "Hydrocortisone Cream 15g",
+      "category": "Dermatology",
+      "unit_price_rwf": 2300,
+      "quantity": 18,
+      "line_total_rwf": 41400,
+      "region": "Kigali - Gasabo",
+      "client_name": "Gasabo District Hospital",
+      "client_type": "District Hospital"
+    },
+    {
+      "transaction_id": "TXN-03713",
+      "date": "2025-12-30",
+      "month": "2025-12",
+      "product": "Hydrocortisone Cream 15g",
+      "category": "Dermatology",
+      "unit_price_rwf": 2300,
+      "quantity": 18,
+      "line_total_rwf": 41400,
+      "region": "Kigali - Gasabo",
+      "client_name": "Gasabo District Hospital",
+      "client_type": "District Hospital"
+    },
+    {
+      "transaction_id": "TXN-03714",
+      "date": "2025-12-30",
+      "month": "2025-12",
+      "product": "Digital Thermometer",
+      "category": "Medical Supplies",
+      "unit_price_rwf": 5800,
+      "quantity": 7,
+      "line_total_rwf": 40600,
+      "region": "Southern Province - Huye",
+      "client_name": "Gisenyi Health Post",
+      "client_type": "District Hospital"
+    }
+  ],
+  "windows": {
+    "12": {
+      "label": "All time (12 months)",
+      "kpis": {
+        "total_revenue_rwf": 149021600,
+        "total_orders": 3729,
+        "avg_order_value_rwf": 39963,
+        "best_month": "2025-10",
+        "best_month_revenue_rwf": 13570400,
+        "active_regions": 7,
+        "active_products": 24,
+        "reorder_count": 9,
+        "monthly_ceiling_rwf": 15000000
+      },
+      "monthly_revenue": [
+        {
+          "month": "2025-01",
+          "revenue_rwf": 11546600
+        },
+        {
+          "month": "2025-02",
+          "revenue_rwf": 10910600
+        },
+        {
+          "month": "2025-03",
+          "revenue_rwf": 11994100
+        },
+        {
+          "month": "2025-04",
+          "revenue_rwf": 12196500
+        },
+        {
+          "month": "2025-05",
+          "revenue_rwf": 11832300
+        },
+        {
+          "month": "2025-06",
+          "revenue_rwf": 12799200
+        },
+        {
+          "month": "2025-07",
+          "revenue_rwf": 12710100
+        },
+        {
+          "month": "2025-08",
+          "revenue_rwf": 12333500
+        },
+        {
+          "month": "2025-09",
+          "revenue_rwf": 12590300
+        },
+        {
+          "month": "2025-10",
+          "revenue_rwf": 13570400
+        },
+        {
+          "month": "2025-11",
+          "revenue_rwf": 12982200
+        },
+        {
+          "month": "2025-12",
+          "revenue_rwf": 13555800
+        }
+      ],
+      "category_breakdown": [
+        {
+          "category": "Medical Supplies",
+          "revenue_rwf": 20530500
+        },
+        {
+          "category": "Antibiotics",
+          "revenue_rwf": 18532300
+        },
+        {
+          "category": "Analgesics & Pain Relief",
+          "revenue_rwf": 17893000
+        },
+        {
+          "category": "Antimalarials",
+          "revenue_rwf": 17654600
+        },
+        {
+          "category": "Vitamins & Supplements",
+          "revenue_rwf": 17400600
+        },
+        {
+          "category": "Diabetes Care",
+          "revenue_rwf": 14018600
+        },
+        {
+          "category": "Antihypertensives",
+          "revenue_rwf": 12578900
+        },
+        {
+          "category": "Cold & Flu",
+          "revenue_rwf": 12321000
+        },
+        {
+          "category": "Maternal & Child Health",
+          "revenue_rwf": 11852200
+        },
+        {
+          "category": "Dermatology",
+          "revenue_rwf": 6239900
+        }
+      ],
+      "region_breakdown": [
+        {
+          "region": "Kigali - Gasabo",
+          "revenue_rwf": 25503100
+        },
+        {
+          "region": "Northern Province - Musanze",
+          "revenue_rwf": 25322100
+        },
+        {
+          "region": "Kigali - Nyarugenge",
+          "revenue_rwf": 25224900
+        },
+        {
+          "region": "Southern Province - Huye",
+          "revenue_rwf": 24550700
+        },
+        {
+          "region": "Kigali - Kicukiro",
+          "revenue_rwf": 23813900
+        },
+        {
+          "region": "Eastern Province - Rwamagana",
+          "revenue_rwf": 12558100
+        },
+        {
+          "region": "Western Province - Rubavu",
+          "revenue_rwf": 12048800
+        }
+      ],
+      "client_type_breakdown": [
+        {
+          "client_type": "Health Center",
+          "revenue_rwf": 38283800
+        },
+        {
+          "client_type": "District Hospital",
+          "revenue_rwf": 38150400
+        },
+        {
+          "client_type": "Wholesale Distributor",
+          "revenue_rwf": 24923700
+        },
+        {
+          "client_type": "Retail Pharmacy",
+          "revenue_rwf": 23835700
+        },
+        {
+          "client_type": "Private Clinic",
+          "revenue_rwf": 23828000
+        }
+      ],
+      "top_products": [
+        {
+          "product": "Surgical Gloves (box of 100)",
+          "revenue": 7564500,
+          "units": 1681
+        },
+        {
+          "product": "Insulin Glargine Pen",
+          "revenue": 7210500,
+          "units": 759
+        },
+        {
+          "product": "Metformin 500mg",
+          "revenue": 6808100,
+          "units": 5237
+        },
+        {
+          "product": "Disposable Syringes (box of 50)",
+          "revenue": 6789000,
+          "units": 1095
+        },
+        {
+          "product": "Multivitamin Syrup 100ml",
+          "revenue": 6720000,
+          "units": 2100
+        },
+        {
+          "product": "Ciprofloxacin 500mg",
+          "revenue": 6524800,
+          "units": 4078
+        },
+        {
+          "product": "Cough Syrup 100ml",
+          "revenue": 6433000,
+          "units": 4595
+        },
+        {
+          "product": "Amlodipine 5mg",
+          "revenue": 6417500,
+          "units": 3775
+        }
+      ],
+      "insights": [],
+      "inventory": [
+        {
+          "product": "Hydrocortisone Cream 15g",
+          "category": "Dermatology",
+          "unit_price_rwf": 2300,
+          "stock_on_hand": 1,
+          "reorder_threshold": 104,
+          "reorder_quantity": 223,
+          "last_restocked": "2025-11-25",
+          "avg_daily_units_sold": 7.43,
+          "days_of_stock_remaining": 0.1,
+          "needs_reorder": true
+        },
+        {
+          "product": "Vitamin C 1000mg",
+          "category": "Vitamins & Supplements",
+          "unit_price_rwf": 1900,
+          "stock_on_hand": 11,
+          "reorder_threshold": 109,
+          "reorder_quantity": 234,
+          "last_restocked": "2025-12-22",
+          "avg_daily_units_sold": 7.79,
+          "days_of_stock_remaining": 1.4,
+          "needs_reorder": true
+        },
+        {
+          "product": "Ciprofloxacin 500mg",
+          "category": "Antibiotics",
+          "unit_price_rwf": 1600,
+          "stock_on_hand": 34,
+          "reorder_threshold": 156,
+          "reorder_quantity": 335,
+          "last_restocked": "2025-11-25",
+          "avg_daily_units_sold": 11.17,
+          "days_of_stock_remaining": 3.0,
+          "needs_reorder": true
+        },
+        {
+          "product": "Amlodipine 5mg",
+          "category": "Antihypertensives",
+          "unit_price_rwf": 1700,
+          "stock_on_hand": 48,
+          "reorder_threshold": 145,
+          "reorder_quantity": 310,
+          "last_restocked": "2025-11-12",
+          "avg_daily_units_sold": 10.34,
+          "days_of_stock_remaining": 4.6,
+          "needs_reorder": true
+        },
+        {
+          "product": "Metformin 500mg",
+          "category": "Diabetes Care",
+          "unit_price_rwf": 1300,
+          "stock_on_hand": 80,
+          "reorder_threshold": 201,
+          "reorder_quantity": 430,
+          "last_restocked": "2025-12-05",
+          "avg_daily_units_sold": 14.35,
+          "days_of_stock_remaining": 5.6,
+          "needs_reorder": true
+        },
+        {
+          "product": "Amoxicillin 500mg",
+          "category": "Antibiotics",
+          "unit_price_rwf": 1200,
+          "stock_on_hand": 121,
+          "reorder_threshold": 199,
+          "reorder_quantity": 427,
+          "last_restocked": "2025-11-17",
+          "avg_daily_units_sold": 14.22,
+          "days_of_stock_remaining": 8.5,
+          "needs_reorder": true
+        },
+        {
+          "product": "Oral Rehydration Salts",
+          "category": "Maternal & Child Health",
+          "unit_price_rwf": 600,
+          "stock_on_hand": 274,
+          "reorder_threshold": 395,
+          "reorder_quantity": 846,
+          "last_restocked": "2025-12-17",
+          "avg_daily_units_sold": 28.22,
+          "days_of_stock_remaining": 9.7,
+          "needs_reorder": true
+        },
+        {
+          "product": "Digital Thermometer",
+          "category": "Medical Supplies",
+          "unit_price_rwf": 5800,
+          "stock_on_hand": 29,
+          "reorder_threshold": 41,
+          "reorder_quantity": 88,
+          "last_restocked": "2025-12-20",
+          "avg_daily_units_sold": 2.92,
+          "days_of_stock_remaining": 9.9,
+          "needs_reorder": true
+        },
+        {
+          "product": "Insulin Glargine Pen",
+          "category": "Diabetes Care",
+          "unit_price_rwf": 9500,
+          "stock_on_hand": 29,
+          "reorder_threshold": 29,
+          "reorder_quantity": 62,
+          "last_restocked": "2025-12-10",
+          "avg_daily_units_sold": 2.08,
+          "days_of_stock_remaining": 13.9,
+          "needs_reorder": true
+        },
+        {
+          "product": "Amodiaquine + Artesunate 25mg",
+          "category": "Antimalarials",
+          "unit_price_rwf": 1800,
+          "stock_on_hand": 127,
+          "reorder_threshold": 113,
+          "reorder_quantity": 242,
+          "last_restocked": "2025-12-19",
+          "avg_daily_units_sold": 8.07,
+          "days_of_stock_remaining": 15.7,
+          "needs_reorder": false
+        },
+        {
+          "product": "Ibuprofen 400mg",
+          "category": "Analgesics & Pain Relief",
+          "unit_price_rwf": 700,
+          "stock_on_hand": 455,
+          "reorder_threshold": 323,
+          "reorder_quantity": 692,
+          "last_restocked": "2025-11-18",
+          "avg_daily_units_sold": 23.08,
+          "days_of_stock_remaining": 19.7,
+          "needs_reorder": false
+        },
+        {
+          "product": "Cough Syrup 100ml",
+          "category": "Cold & Flu",
+          "unit_price_rwf": 1400,
+          "stock_on_hand": 305,
+          "reorder_threshold": 176,
+          "reorder_quantity": 378,
+          "last_restocked": "2025-11-26",
+          "avg_daily_units_sold": 12.59,
+          "days_of_stock_remaining": 24.2,
+          "needs_reorder": false
+        },
+        {
+          "product": "Ferrous Sulphate + Folic Acid",
+          "category": "Vitamins & Supplements",
+          "unit_price_rwf": 1100,
+          "stock_on_hand": 412,
+          "reorder_threshold": 184,
+          "reorder_quantity": 394,
+          "last_restocked": "2025-12-13",
+          "avg_daily_units_sold": 13.15,
+          "days_of_stock_remaining": 31.3,
+          "needs_reorder": false
+        },
+        {
+          "product": "Surgical Gloves (box of 100)",
+          "category": "Medical Supplies",
+          "unit_price_rwf": 4500,
+          "stock_on_hand": 144,
+          "reorder_threshold": 64,
+          "reorder_quantity": 138,
+          "last_restocked": "2025-12-20",
+          "avg_daily_units_sold": 4.61,
+          "days_of_stock_remaining": 31.3,
+          "needs_reorder": false
+        },
+        {
+          "product": "Quinine Sulphate 300mg",
+          "category": "Antimalarials",
+          "unit_price_rwf": 1500,
+          "stock_on_hand": 389,
+          "reorder_threshold": 164,
+          "reorder_quantity": 351,
+          "last_restocked": "2025-11-13",
+          "avg_daily_units_sold": 11.71,
+          "days_of_stock_remaining": 33.2,
+          "needs_reorder": false
+        },
+        {
+          "product": "Paracetamol 500mg",
+          "category": "Analgesics & Pain Relief",
+          "unit_price_rwf": 500,
+          "stock_on_hand": 1146,
+          "reorder_threshold": 465,
+          "reorder_quantity": 995,
+          "last_restocked": "2025-12-15",
+          "avg_daily_units_sold": 33.18,
+          "days_of_stock_remaining": 34.5,
+          "needs_reorder": false
+        },
+        {
+          "product": "Coartem 20/120mg",
+          "category": "Antimalarials",
+          "unit_price_rwf": 2200,
+          "stock_on_hand": 271,
+          "reorder_threshold": 104,
+          "reorder_quantity": 222,
+          "last_restocked": "2025-12-05",
+          "avg_daily_units_sold": 7.4,
+          "days_of_stock_remaining": 36.6,
+          "needs_reorder": false
+        },
+        {
+          "product": "Disposable Syringes (box of 50)",
+          "category": "Medical Supplies",
+          "unit_price_rwf": 6200,
+          "stock_on_hand": 117,
+          "reorder_threshold": 42,
+          "reorder_quantity": 90,
+          "last_restocked": "2025-11-06",
+          "avg_daily_units_sold": 3.0,
+          "days_of_stock_remaining": 39.0,
+          "needs_reorder": false
+        },
+        {
+          "product": "Metronidazole 400mg",
+          "category": "Antibiotics",
+          "unit_price_rwf": 900,
+          "stock_on_hand": 749,
+          "reorder_threshold": 246,
+          "reorder_quantity": 528,
+          "last_restocked": "2025-12-24",
+          "avg_daily_units_sold": 17.59,
+          "days_of_stock_remaining": 42.6,
+          "needs_reorder": false
+        },
+        {
+          "product": "Diclofenac Gel 50g",
+          "category": "Analgesics & Pain Relief",
+          "unit_price_rwf": 2500,
+          "stock_on_hand": 286,
+          "reorder_threshold": 91,
+          "reorder_quantity": 195,
+          "last_restocked": "2025-11-18",
+          "avg_daily_units_sold": 6.51,
+          "days_of_stock_remaining": 43.9,
+          "needs_reorder": false
+        },
+        {
+          "product": "Antihistamine Tablets",
+          "category": "Cold & Flu",
+          "unit_price_rwf": 800,
+          "stock_on_hand": 886,
+          "reorder_threshold": 282,
+          "reorder_quantity": 605,
+          "last_restocked": "2025-12-15",
+          "avg_daily_units_sold": 20.16,
+          "days_of_stock_remaining": 43.9,
+          "needs_reorder": false
+        },
+        {
+          "product": "Losartan 50mg",
+          "category": "Antihypertensives",
+          "unit_price_rwf": 2100,
+          "stock_on_hand": 406,
+          "reorder_threshold": 113,
+          "reorder_quantity": 241,
+          "last_restocked": "2025-12-06",
+          "avg_daily_units_sold": 8.04,
+          "days_of_stock_remaining": 50.5,
+          "needs_reorder": false
+        },
+        {
+          "product": "Prenatal Vitamins",
+          "category": "Maternal & Child Health",
+          "unit_price_rwf": 2800,
+          "stock_on_hand": 294,
+          "reorder_threshold": 78,
+          "reorder_quantity": 167,
+          "last_restocked": "2025-12-09",
+          "avg_daily_units_sold": 5.55,
+          "days_of_stock_remaining": 53.0,
+          "needs_reorder": false
+        },
+        {
+          "product": "Multivitamin Syrup 100ml",
+          "category": "Vitamins & Supplements",
+          "unit_price_rwf": 3200,
+          "stock_on_hand": 368,
+          "reorder_threshold": 81,
+          "reorder_quantity": 173,
+          "last_restocked": "2025-12-02",
+          "avg_daily_units_sold": 5.75,
+          "days_of_stock_remaining": 64.0,
+          "needs_reorder": false
+        }
+      ]
+    },
+    "6": {
+      "label": "Last 6 months",
+      "kpis": {
+        "total_revenue_rwf": 90541500,
+        "total_orders": 2174,
+        "avg_order_value_rwf": 41647,
+        "best_month": "2025-10",
+        "best_month_revenue_rwf": 13570400,
+        "active_regions": 7,
+        "active_products": 24,
+        "reorder_count": 9,
+        "monthly_ceiling_rwf": 15000000
+      },
+      "monthly_revenue": [
+        {
+          "month": "2025-06",
+          "revenue_rwf": 12799200
+        },
+        {
+          "month": "2025-07",
+          "revenue_rwf": 12710100
+        },
+        {
+          "month": "2025-08",
+          "revenue_rwf": 12333500
+        },
+        {
+          "month": "2025-09",
+          "revenue_rwf": 12590300
+        },
+        {
+          "month": "2025-10",
+          "revenue_rwf": 13570400
+        },
+        {
+          "month": "2025-11",
+          "revenue_rwf": 12982200
+        },
+        {
+          "month": "2025-12",
+          "revenue_rwf": 13555800
+        }
+      ],
+      "category_breakdown": [
+        {
+          "category": "Medical Supplies",
+          "revenue_rwf": 12465200
+        },
+        {
+          "category": "Antibiotics",
+          "revenue_rwf": 11533700
+        },
+        {
+          "category": "Antimalarials",
+          "revenue_rwf": 10923400
+        },
+        {
+          "category": "Vitamins & Supplements",
+          "revenue_rwf": 10669600
+        },
+        {
+          "category": "Analgesics & Pain Relief",
+          "revenue_rwf": 10503500
+        },
+        {
+          "category": "Diabetes Care",
+          "revenue_rwf": 9115300
+        },
+        {
+          "category": "Antihypertensives",
+          "revenue_rwf": 7616600
+        },
+        {
+          "category": "Cold & Flu",
+          "revenue_rwf": 7032000
+        },
+        {
+          "category": "Maternal & Child Health",
+          "revenue_rwf": 7029800
+        },
+        {
+          "category": "Dermatology",
+          "revenue_rwf": 3652400
+        }
+      ],
+      "region_breakdown": [
+        {
+          "region": "Kigali - Gasabo",
+          "revenue_rwf": 15866000
+        },
+        {
+          "region": "Kigali - Nyarugenge",
+          "revenue_rwf": 15684300
+        },
+        {
+          "region": "Northern Province - Musanze",
+          "revenue_rwf": 15257100
+        },
+        {
+          "region": "Southern Province - Huye",
+          "revenue_rwf": 14953800
+        },
+        {
+          "region": "Kigali - Kicukiro",
+          "revenue_rwf": 13961000
+        },
+        {
+          "region": "Western Province - Rubavu",
+          "revenue_rwf": 7470600
+        },
+        {
+          "region": "Eastern Province - Rwamagana",
+          "revenue_rwf": 7348700
+        }
+      ],
+      "client_type_breakdown": [
+        {
+          "client_type": "District Hospital",
+          "revenue_rwf": 24388500
+        },
+        {
+          "client_type": "Health Center",
+          "revenue_rwf": 23164200
+        },
+        {
+          "client_type": "Wholesale Distributor",
+          "revenue_rwf": 15037200
+        },
+        {
+          "client_type": "Private Clinic",
+          "revenue_rwf": 14102300
+        },
+        {
+          "client_type": "Retail Pharmacy",
+          "revenue_rwf": 13849300
+        }
+      ],
+      "top_products": [
+        {
+          "product": "Insulin Glargine Pen",
+          "revenue": 5025500,
+          "units": 529
+        },
+        {
+          "product": "Surgical Gloves (box of 100)",
+          "revenue": 4617000,
+          "units": 1026
+        },
+        {
+          "product": "Disposable Syringes (box of 50)",
+          "revenue": 4327600,
+          "units": 698
+        },
+        {
+          "product": "Multivitamin Syrup 100ml",
+          "revenue": 4195200,
+          "units": 1311
+        },
+        {
+          "product": "Amlodipine 5mg",
+          "revenue": 4097000,
+          "units": 2410
+        },
+        {
+          "product": "Metformin 500mg",
+          "revenue": 4089800,
+          "units": 3146
+        },
+        {
+          "product": "Ciprofloxacin 500mg",
+          "revenue": 4073600,
+          "units": 2546
+        },
+        {
+          "product": "Oral Rehydration Salts",
+          "revenue": 3882600,
+          "units": 6471
+        }
+      ],
+      "insights": [],
+      "inventory": [
+        {
+          "product": "Hydrocortisone Cream 15g",
+          "category": "Dermatology",
+          "unit_price_rwf": 2300,
+          "stock_on_hand": 1,
+          "reorder_threshold": 104,
+          "reorder_quantity": 223,
+          "last_restocked": "2025-11-25",
+          "avg_daily_units_sold": 7.42,
+          "days_of_stock_remaining": 0.1,
+          "needs_reorder": true
+        },
+        {
+          "product": "Vitamin C 1000mg",
+          "category": "Vitamins & Supplements",
+          "unit_price_rwf": 1900,
+          "stock_on_hand": 11,
+          "reorder_threshold": 109,
+          "reorder_quantity": 234,
+          "last_restocked": "2025-12-22",
+          "avg_daily_units_sold": 7.54,
+          "days_of_stock_remaining": 1.5,
+          "needs_reorder": true
+        },
+        {
+          "product": "Ciprofloxacin 500mg",
+          "category": "Antibiotics",
+          "unit_price_rwf": 1600,
+          "stock_on_hand": 34,
+          "reorder_threshold": 156,
+          "reorder_quantity": 335,
+          "last_restocked": "2025-11-25",
+          "avg_daily_units_sold": 11.9,
+          "days_of_stock_remaining": 2.9,
+          "needs_reorder": true
+        },
+        {
+          "product": "Amlodipine 5mg",
+          "category": "Antihypertensives",
+          "unit_price_rwf": 1700,
+          "stock_on_hand": 48,
+          "reorder_threshold": 145,
+          "reorder_quantity": 310,
+          "last_restocked": "2025-11-12",
+          "avg_daily_units_sold": 11.26,
+          "days_of_stock_remaining": 4.3,
+          "needs_reorder": true
+        },
+        {
+          "product": "Metformin 500mg",
+          "category": "Diabetes Care",
+          "unit_price_rwf": 1300,
+          "stock_on_hand": 80,
+          "reorder_threshold": 201,
+          "reorder_quantity": 430,
+          "last_restocked": "2025-12-05",
+          "avg_daily_units_sold": 14.7,
+          "days_of_stock_remaining": 5.4,
+          "needs_reorder": true
+        },
+        {
+          "product": "Amoxicillin 500mg",
+          "category": "Antibiotics",
+          "unit_price_rwf": 1200,
+          "stock_on_hand": 121,
+          "reorder_threshold": 199,
+          "reorder_quantity": 427,
+          "last_restocked": "2025-11-17",
+          "avg_daily_units_sold": 14.0,
+          "days_of_stock_remaining": 8.6,
+          "needs_reorder": true
+        },
+        {
+          "product": "Oral Rehydration Salts",
+          "category": "Maternal & Child Health",
+          "unit_price_rwf": 600,
+          "stock_on_hand": 274,
+          "reorder_threshold": 395,
+          "reorder_quantity": 846,
+          "last_restocked": "2025-12-17",
+          "avg_daily_units_sold": 30.24,
+          "days_of_stock_remaining": 9.1,
+          "needs_reorder": true
+        },
+        {
+          "product": "Digital Thermometer",
+          "category": "Medical Supplies",
+          "unit_price_rwf": 5800,
+          "stock_on_hand": 29,
+          "reorder_threshold": 41,
+          "reorder_quantity": 88,
+          "last_restocked": "2025-12-20",
+          "avg_daily_units_sold": 2.84,
+          "days_of_stock_remaining": 10.2,
+          "needs_reorder": true
+        },
+        {
+          "product": "Insulin Glargine Pen",
+          "category": "Diabetes Care",
+          "unit_price_rwf": 9500,
+          "stock_on_hand": 29,
+          "reorder_threshold": 29,
+          "reorder_quantity": 62,
+          "last_restocked": "2025-12-10",
+          "avg_daily_units_sold": 2.47,
+          "days_of_stock_remaining": 11.7,
+          "needs_reorder": true
+        },
+        {
+          "product": "Amodiaquine + Artesunate 25mg",
+          "category": "Antimalarials",
+          "unit_price_rwf": 1800,
+          "stock_on_hand": 127,
+          "reorder_threshold": 113,
+          "reorder_quantity": 242,
+          "last_restocked": "2025-12-19",
+          "avg_daily_units_sold": 8.91,
+          "days_of_stock_remaining": 14.3,
+          "needs_reorder": false
+        },
+        {
+          "product": "Ibuprofen 400mg",
+          "category": "Analgesics & Pain Relief",
+          "unit_price_rwf": 700,
+          "stock_on_hand": 455,
+          "reorder_threshold": 323,
+          "reorder_quantity": 692,
+          "last_restocked": "2025-11-18",
+          "avg_daily_units_sold": 22.38,
+          "days_of_stock_remaining": 20.3,
+          "needs_reorder": false
+        },
+        {
+          "product": "Cough Syrup 100ml",
+          "category": "Cold & Flu",
+          "unit_price_rwf": 1400,
+          "stock_on_hand": 305,
+          "reorder_threshold": 176,
+          "reorder_quantity": 378,
+          "last_restocked": "2025-11-26",
+          "avg_daily_units_sold": 12.13,
+          "days_of_stock_remaining": 25.1,
+          "needs_reorder": false
+        },
+        {
+          "product": "Ferrous Sulphate + Folic Acid",
+          "category": "Vitamins & Supplements",
+          "unit_price_rwf": 1100,
+          "stock_on_hand": 412,
+          "reorder_threshold": 184,
+          "reorder_quantity": 394,
+          "last_restocked": "2025-12-13",
+          "avg_daily_units_sold": 14.48,
+          "days_of_stock_remaining": 28.5,
+          "needs_reorder": false
+        },
+        {
+          "product": "Surgical Gloves (box of 100)",
+          "category": "Medical Supplies",
+          "unit_price_rwf": 4500,
+          "stock_on_hand": 144,
+          "reorder_threshold": 64,
+          "reorder_quantity": 138,
+          "last_restocked": "2025-12-20",
+          "avg_daily_units_sold": 4.79,
+          "days_of_stock_remaining": 30.0,
+          "needs_reorder": false
+        },
+        {
+          "product": "Paracetamol 500mg",
+          "category": "Analgesics & Pain Relief",
+          "unit_price_rwf": 500,
+          "stock_on_hand": 1146,
+          "reorder_threshold": 465,
+          "reorder_quantity": 995,
+          "last_restocked": "2025-12-15",
+          "avg_daily_units_sold": 35.0,
+          "days_of_stock_remaining": 32.7,
+          "needs_reorder": false
+        },
+        {
+          "product": "Quinine Sulphate 300mg",
+          "category": "Antimalarials",
+          "unit_price_rwf": 1500,
+          "stock_on_hand": 389,
+          "reorder_threshold": 164,
+          "reorder_quantity": 351,
+          "last_restocked": "2025-11-13",
+          "avg_daily_units_sold": 11.84,
+          "days_of_stock_remaining": 32.9,
+          "needs_reorder": false
+        },
+        {
+          "product": "Coartem 20/120mg",
+          "category": "Antimalarials",
+          "unit_price_rwf": 2200,
+          "stock_on_hand": 271,
+          "reorder_threshold": 104,
+          "reorder_quantity": 222,
+          "last_restocked": "2025-12-05",
+          "avg_daily_units_sold": 7.84,
+          "days_of_stock_remaining": 34.6,
+          "needs_reorder": false
+        },
+        {
+          "product": "Disposable Syringes (box of 50)",
+          "category": "Medical Supplies",
+          "unit_price_rwf": 6200,
+          "stock_on_hand": 117,
+          "reorder_threshold": 42,
+          "reorder_quantity": 90,
+          "last_restocked": "2025-11-06",
+          "avg_daily_units_sold": 3.26,
+          "days_of_stock_remaining": 35.9,
+          "needs_reorder": false
+        },
+        {
+          "product": "Metronidazole 400mg",
+          "category": "Antibiotics",
+          "unit_price_rwf": 900,
+          "stock_on_hand": 749,
+          "reorder_threshold": 246,
+          "reorder_quantity": 528,
+          "last_restocked": "2025-12-24",
+          "avg_daily_units_sold": 20.06,
+          "days_of_stock_remaining": 37.3,
+          "needs_reorder": false
+        },
+        {
+          "product": "Antihistamine Tablets",
+          "category": "Cold & Flu",
+          "unit_price_rwf": 800,
+          "stock_on_hand": 886,
+          "reorder_threshold": 282,
+          "reorder_quantity": 605,
+          "last_restocked": "2025-12-15",
+          "avg_daily_units_sold": 19.85,
+          "days_of_stock_remaining": 44.6,
+          "needs_reorder": false
+        },
+        {
+          "product": "Diclofenac Gel 50g",
+          "category": "Analgesics & Pain Relief",
+          "unit_price_rwf": 2500,
+          "stock_on_hand": 286,
+          "reorder_threshold": 91,
+          "reorder_quantity": 195,
+          "last_restocked": "2025-11-18",
+          "avg_daily_units_sold": 6.36,
+          "days_of_stock_remaining": 44.9,
+          "needs_reorder": false
+        },
+        {
+          "product": "Losartan 50mg",
+          "category": "Antihypertensives",
+          "unit_price_rwf": 2100,
+          "stock_on_hand": 406,
+          "reorder_threshold": 113,
+          "reorder_quantity": 241,
+          "last_restocked": "2025-12-06",
+          "avg_daily_units_sold": 7.83,
+          "days_of_stock_remaining": 51.8,
+          "needs_reorder": false
+        },
+        {
+          "product": "Prenatal Vitamins",
+          "category": "Maternal & Child Health",
+          "unit_price_rwf": 2800,
+          "stock_on_hand": 294,
+          "reorder_threshold": 78,
+          "reorder_quantity": 167,
+          "last_restocked": "2025-12-09",
+          "avg_daily_units_sold": 5.25,
+          "days_of_stock_remaining": 56.0,
+          "needs_reorder": false
+        },
+        {
+          "product": "Multivitamin Syrup 100ml",
+          "category": "Vitamins & Supplements",
+          "unit_price_rwf": 3200,
+          "stock_on_hand": 368,
+          "reorder_threshold": 81,
+          "reorder_quantity": 173,
+          "last_restocked": "2025-12-02",
+          "avg_daily_units_sold": 6.13,
+          "days_of_stock_remaining": 60.1,
+          "needs_reorder": false
+        }
+      ]
+    }
+  }
+}

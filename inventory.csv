@@ -1,0 +1,25 @@
+product,category,unit_price_rwf,stock_on_hand,reorder_threshold,reorder_quantity,last_restocked
+Amodiaquine + Artesunate 25mg,Antimalarials,1800,127,113,242,2025-12-19
+Coartem 20/120mg,Antimalarials,2200,271,104,222,2025-12-05
+Quinine Sulphate 300mg,Antimalarials,1500,389,164,351,2025-11-13
+Amoxicillin 500mg,Antibiotics,1200,121,199,427,2025-11-17
+Ciprofloxacin 500mg,Antibiotics,1600,34,156,335,2025-11-25
+Metronidazole 400mg,Antibiotics,900,749,246,528,2025-12-24
+Paracetamol 500mg,Analgesics & Pain Relief,500,1146,465,995,2025-12-15
+Ibuprofen 400mg,Analgesics & Pain Relief,700,455,323,692,2025-11-18
+Diclofenac Gel 50g,Analgesics & Pain Relief,2500,286,91,195,2025-11-18
+Multivitamin Syrup 100ml,Vitamins & Supplements,3200,368,81,173,2025-12-02
+Ferrous Sulphate + Folic Acid,Vitamins & Supplements,1100,412,184,394,2025-12-13
+Vitamin C 1000mg,Vitamins & Supplements,1900,11,109,234,2025-12-22
+Amlodipine 5mg,Antihypertensives,1700,48,145,310,2025-11-12
+Losartan 50mg,Antihypertensives,2100,406,113,241,2025-12-06
+Metformin 500mg,Diabetes Care,1300,80,201,430,2025-12-05
+Insulin Glargine Pen,Diabetes Care,9500,29,29,62,2025-12-10
+Oral Rehydration Salts,Maternal & Child Health,600,274,395,846,2025-12-17
+Prenatal Vitamins,Maternal & Child Health,2800,294,78,167,2025-12-09
+Cough Syrup 100ml,Cold & Flu,1400,305,176,378,2025-11-26
+Antihistamine Tablets,Cold & Flu,800,886,282,605,2025-12-15
+Hydrocortisone Cream 15g,Dermatology,2300,1,104,223,2025-11-25
+Surgical Gloves (box of 100),Medical Supplies,4500,144,64,138,2025-12-20
+Disposable Syringes (box of 50),Medical Supplies,6200,117,42,90,2025-11-06
+Digital Thermometer,Medical Supplies,5800,29,41,88,2025-12-20
